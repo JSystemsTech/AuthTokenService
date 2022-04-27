@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="5298f844-2eb4-4c35-adb4-23989235d1e3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Localhost/AuthTokenServices/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="2ac3760a-5436-406d-b789-a5f44b5430ba" SourceId="1" SourceUrl="http://localhost:8733/Localhost/AuthTokenServices/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="93c7a580-efd5-4901-8911-f6a200c6d037" SourceId="1" SourceUrl="http://localhost:8733/Localhost/AuthTokenServices/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="557df672-9a20-421a-93ae-6ec8a0dc411b" SourceId="1" SourceUrl="http://localhost:8733/Localhost/AuthTokenServices/mex" />
+    <MetadataFile FileName="AuthTokenService.Extensions1.xsd" MetadataType="Schema" ID="0f40acac-3fa0-4142-af1a-93915b2c40d0" SourceId="1" SourceUrl="http://localhost:8733/Localhost/AuthTokenServices/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="edeafd7f-3893-4fd1-b234-1481b1e503e9" SourceId="1" SourceUrl="http://localhost:8733/Localhost/AuthTokenServices/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
